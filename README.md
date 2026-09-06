@@ -76,7 +76,7 @@ Standard sequential backtracking searches cells in row-major order, which can ca
 
 The **MRV Heuristic** ("Most Constrained Variable" principle) dynamically inspects all empty cells and chooses the cell with the fewest legal candidate choices:
 
-$$\text{Cell}_{\text{MRV}} = \arg\min_{(r, c): X_{r, c} = 0} |\{v \in \{1 \dots 9\} \mid \text{is\_valid}(v, r, c)\}|$$
+$$\text{Cell}_{\text{MRV}} = \arg\min_{(r, c): X_{r, c} = 0} \big|\{v \in \{1, \dots, 9\} \mid \text{isValid}(v, (r, c))\}\big|$$
 
 - **Early Failure Detection:** Surfaces conflicts near the root of the search tree instead of deep down branches.
 - **Massive Pruning:** Reduces explored states by orders of magnitude, turning second-long searches into sub-10ms solutions.
