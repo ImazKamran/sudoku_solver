@@ -27,7 +27,6 @@ It provides a dual-interface delivery model:
   - [Streamlit Web Application](#1-streamlit-web-application)
   - [Terminal CLI](#2-terminal-cli)
 - [Web Interface Highlights](#-web-interface-highlights)
-- [Authors & Presentation](#-authors--presentation)
 
 ---
 
