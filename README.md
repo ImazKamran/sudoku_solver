@@ -27,7 +27,6 @@ It provides a dual-interface delivery model:
   - [Streamlit Web Application](#1-streamlit-web-application)
   - [Terminal CLI](#2-terminal-cli)
 - [Web Interface Highlights](#-web-interface-highlights)
-- [Authors & Presentation](#-authors--presentation)
 
 ---
 
@@ -170,12 +169,3 @@ Follow the interactive prompts to enter each row as a string of 9 digits (use `0
   - **Get Hint:** Calculates the single most constrained cell and reveals its digit.
   - **Clear Grid:** Clears the board for manual entry.
   - **Reset Initial:** Restores the generated puzzle back to its starting state.
-
----
-
-## 👥 Authors & Presentation
-
-- **M. Imaz Kamran** (F2023266647)
-- **M. Nafay** (F2023266392)
-
-📊 **Presentation Slides:** [Google Slides Presentation](https://docs.google.com/presentation/d/1fu7lAw7n-d4EucPOG3sMehmYkgoAPcaXjDsZAmSiGJg/edit?usp=sharing)
